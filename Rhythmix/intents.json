@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Songs",
+      "patterns": [
+        "Tell me a song!",
+        "Tell me new song!",
+        "Do you know a song?",
+        "I am feeling sad",
+        "Suggest me a song"
+      ],
+      "responses": [
+        "Tere Vaaste Falak se <a href='https://www.youtube.com/watch?v=X7WXHhokylc'>Link</a>",
+        "Ek Tu Hi Hai <a href='https://www.jiosaavn.com/album/ek-tu-hi-hai/heeu,giPtsE_'>Link</a>",
+        "Ram Siya Ram <a href='https://www.jiosaavn.com/album/ram-siya-ram-from-adipurush/o21EQ2PGLsk_'>Link</a>",
+        "Rabba Janda <a href='https://www.jiosaavn.com/song/rabba-janda/MkUMYC5jfVw'>Link</a>",
+        "The Disco Song <a href='https://www.jiosaavn.com/song/the-disco-song/QVkqCEd2UEI'>Link</a>",
+        "Sajde <a href='https://www.jiosaavn.com/song/sajde/PFkzZB9WGmU'>Link</a>",
+        "Te Amo <a href='https://www.jiosaavn.com/song/te-amo/NVoZBSVGW3c'>Link</a>",
+        "Desi Girl <a href='https://www.jiosaavn.com/song/desi-girl/Fz89BDxeXms'>Link</a>",
+        "Dus Bahane <a href='https://www.jiosaavn.com/song/dus-bahane/H10zfE0FcHQ'>Link</a>",
+        "Kamli <a href='https://www.jiosaavn.com/song/kamli/JDdcVR12BWk'>Link</a>"
+    
+      ]
+    },
+    {
+      "tag": "Sad Songs",
+      "patterns": [
+        "Tell me a sad song!",
+        "Tell me new sad song!",
+        "Do you know a sad song?",
+        "I am feeling sad, Suggest a sad song!"
+      ],
+      "responses": [
+        "O Bedardiya <br/> <a href='https://www.jiosaavn.com/song/o-bedardeya-from-tu-jhoothi-main-makkaar/CCsafyNnRnQ'>Link</a> <br/> Kya Loge tum <br/> <a href='https://www.jiosaavn.com/song/kya-loge-tum/EwYiWyNaZ3E'>Link</a> <br/> Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a> <br/> Teri Galliyon Se <br/> <a href='https://www.jiosaavn.com/song/teri-galliyon-se/CiRZVzJyVWE'>Link</a> <br/> Dhokebaz <br/> <a href='https://www.jiosaavn.com/song/dhokebaaz/KRIGCS1EUVo'>Link</a>",
+
+        "Kya Loge tum <br/> <a href='https://www.jiosaavn.com/song/kya-loge-tum/EwYiWyNaZ3E'>Link</a><br/>Galtiyan<br/> <a href='https://www.jiosaavn.com/song/galtiyan/QQ8MViMCYGM'>Link</a> <br/> Dhokebaz<br/> <a href='https://www.jiosaavn.com/song/dhokebaaz/KRIGCS1EUVo'>Link</a> <br/> Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a> ",
+        "Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a>",
+
+
+
+        "Teri Galliyon Se <br/> <a href='https://www.jiosaavn.com/song/teri-galliyon-se/CiRZVzJyVWE'>Link</a> <br/> Kya Loge tum <br/> <a href='https://www.jiosaavn.com/song/kya-loge-tum/EwYiWyNaZ3E'>Link</a><br/>Galtiyan<br/> <a href='https://www.jiosaavn.com/song/galtiyan/QQ8MViMCYGM'>Link</a> <br/> Dhokebaz<br/> <a href='https://www.jiosaavn.com/song/dhokebaaz/KRIGCS1EUVo'>Link</a> <br/> Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a> ",
+        "Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a>" ,
+
+        "Dhokebaz<br/> <a href='https://www.jiosaavn.com/song/dhokebaaz/KRIGCS1EUVo'>Link</a> <br/> Kya Loge tum <br/> <a href='https://www.jiosaavn.com/song/kya-loge-tum/EwYiWyNaZ3E'>Link</a><br/>Galtiyan<br/> <a href='https://www.jiosaavn.com/song/galtiyan/QQ8MViMCYGM'>Link</a> <br/> Dhokebaz<br/> <a href='https://www.jiosaavn.com/song/dhokebaaz/KRIGCS1EUVo'>Link</a> <br/> Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a> ",
+        "Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a>",
+        "Galtiyan<br/> <a href='https://www.jiosaavn.com/song/galtiyan/QQ8MViMCYGM'>Link</a> <br/> Kya Loge tum <br/> <a href='https://www.jiosaavn.com/song/kya-loge-tum/EwYiWyNaZ3E'>Link</a><br/>Galtiyan<br/> <a href='https://www.jiosaavn.com/song/galtiyan/QQ8MViMCYGM'>Link</a> <br/> Dhokebaz<br/> <a href='https://www.jiosaavn.com/song/dhokebaaz/KRIGCS1EUVo'>Link</a> <br/> Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a> ",
+        "Bewafa Se Pyar kiya <br/> <a href='https://www.jiosaavn.com/song/bewafa-se-pyaar-kiya/GhAddTdlZkY'>Link</a>"
+
+ 
+    
+      ]
+    },
+    {
+      "tag": "Romantic songs",
+      "patterns": [
+        "Tell me a Romantic song",
+        "Suggest me Romantic songs",
+        "Do you know a Romantic song?"
+      ],
+      "responses": [
+        "Zihaal e Miskin <br/> <a href='https://www.jiosaavn.com/song/zihaal-e-miskin/OQAgUxlXTmM'>Link</a> <br/> Galtiyan<br/> <a href='https://www.jiosaavn.com/song/galtiyan/QQ8MViMCYGM'>Link</a> <br> Mere Sohniya <br/> <a href='https://www.jiosaavn.com/song/mere-sohneya/QF1dVQBSDkc'>Link</a> Dil Diyan Galan <br/> <a href='https://www.jiosaavn.com/song/dil-diyan-gallan/Ol1feEYEZkA'>Link</a> <br/> Jag Ghoomeya <a href='https://www.jiosaavn.com/song/jag-ghoomeya/Fh4aeDZZaGI'>Link</a>",
+        "Apna Bana le <br/> <a href='https://www.jiosaavn.com/song/apna-bana-le/ATIfejZ9bWw'>Link</a> <br/> Mere Sohniya <br/> <a href='https://www.jiosaavn.com/song/mere-sohneya/QF1dVQBSDkc'>Link</a>  <br/> Apna Bana Le <a href='https://www.jiosaavn.com/song/apna-bana-le/ATIfejZ9bWw'>Link</a>  <br/> Kesariya <a href='https://www.jiosaavn.com/song/kesariya-from-brahmastra/NQotZhVbc0A'>Link</a>  <br/> Maiyya Mainnu <a href='https://www.jiosaavn.com/song/maiyya-mainu/QxItVgZGWHY'>Link</a>  <br/> Naiyo Lagda<a href='https://www.jiosaavn.com/song/naiyo-lagda/Mh0eZBVRBwQ'>Link</a>",
+        "Udd Jaa Kaale Kaava  <br/> <a href='https://www.jiosaavn.com/song/udd-jaa-kaale-kaava-from-gadar-2/JFk6dRxKU2k'>Link</a> <br/> Kabhi Tumhe <br/> <a href='https://www.jiosaavn.com/song/kabhii-tumhhe/NQ0MZgx3dn0'>Link</a>  <br/> Tum hi ho <a href='https://www.jiosaavn.com/song/tum-hi-ho/EToxUyFpcwQ'>Link</a>  <br/> Jag Ghoomeya <a href='https://www.jiosaavn.com/song/jag-ghoomeya/Fh4aeDZZaGI'>Link</a>  <br/> Ve Maahi <a href='https://www.jiosaavn.com/song/ve-maahi/Ix4hQT1CYwo'>Link</a>",
+        "Raatan Lambiya <br/> <a href='https://www.jiosaavn.com/song/raataan-lambiyan/HTg-QzBjQl0'>Link</a> Dil Diyan Galan <br/> <a href='https://www.jiosaavn.com/song/dil-diyan-gallan/Ol1feEYEZkA'>Link</a>  <br/> Naiyyo Lagada <a href='https://www.jiosaavn.com/song/naiyo-lagda/Mh0eZBVRBwQ'>Link</a>  <br/> Raabta <a href='https://www.jiosaavn.com/song/raabta-kehte-hain-khuda-ne/HDpYRx53TmU'>Link</a>  <br/>Ve Maahi <a href='https://www.jiosaavn.com/song/ve-maahi/Ix4hQT1CYwo'>Link</a>",
+        "Kabhi Tumhe <br/> <a href='https://www.jiosaavn.com/song/kabhii-tumhhe/NQ0MZgx3dn0'>Link</a> <br/> Dil Diyan Galan <br/> <a href='https://www.jiosaavn.com/song/dil-diyan-gallan/Ol1feEYEZkA'>Link</a>  <br/> Maiyya Mainnu <a href='https://www.jiosaavn.com/song/maiyya-mainu/QxItVgZGWHY'>Link</a>  <br/> Ve Maahi <a href='https://www.jiosaavn.com/song/ve-maahi/Ix4hQT1CYwo'>Link</a>  <br/> Raabta <a href='https://www.jiosaavn.com/song/raabta-kehte-hain-khuda-ne/HDpYRx53TmU'>Link</a>",
+        "Kaise Hua <br/> <a href='https://www.jiosaavn.com/song/kaise-hua/Iww,biZyXHA'>Link</a>  <br/> Kabhi Tumhe <br/> <a href='https://www.jiosaavn.com/song/kabhii-tumhhe/NQ0MZgx3dn0'>Link</a>  <br/> Ve Maahi <a href='https://www.jiosaavn.com/song/ve-maahi/Ix4hQT1CYwo'>Link</a>  <br/> Tum hi ho <a href='https://www.jiosaavn.com/song/tum-hi-ho/EToxUyFpcwQ'>Link</a>  <br/> Naiyyo Lagda <a href='https://www.jiosaavn.com/song/naiyo-lagda/Mh0eZBVRBwQ'>Link</a>",
+        "Mere Sohniya <br/> <a href='https://www.jiosaavn.com/song/mere-sohneya/QF1dVQBSDkc'>Link</a>  <br/> Kabhi Tumhe <br/> <a href='https://www.jiosaavn.com/song/kabhii-tumhhe/NQ0MZgx3dn0'>Link</a>  <br/> Jag Ghoomeya <a href='https://www.jiosaavn.com/song/jag-ghoomeya/Fh4aeDZZaGI'>Link</a>  <br/> Raabta <a href='https://www.jiosaavn.com/song/raabta-kehte-hain-khuda-ne/HDpYRx53TmU'>Link</a>  <br/> Maiyya Mainnu <a href='https://www.jiosaavn.com/song/maiyya-mainu/QxItVgZGWHY'>Link</a>"
+    
+      ]
+    },
+    {
+      "tag": "Arijit songs",
+      "patterns": [
+        "Tell me a Arijit singh song",
+        "Suggest me Arijit Singh songs",
+        "Do you know a Arijit Singh songs?"
+      ],
+      "responses": [
+        "Apna Bana le  <a href='https://www.jiosaavn.com/song/apna-bana-le/ATIfejZ9bWw'>Link</a>  <br/> Mere Sohniya <br/> <a href='https://www.jiosaavn.com/song/mere-sohneya/QF1dVQBSDkc'>Link</a>  <br/> Kabhi Tumhe <br/> <a href='https://www.jiosaavn.com/song/kabhii-tumhhe/NQ0MZgx3dn0'>Link</a>  <br/> Qaafirana <a href='https://www.jiosaavn.com/song/qaafirana/BTs0Wi5cUV0'>Link</a>  <br/> Deva Deva <a href='https://www.jiosaavn.com/song/deva-deva-from-brahmastra/MVkgViZYe1E'>Link</a>",
+        "Udd Jaa Kaale Kaava <a href='https://www.jiosaavn.com/song/udd-jaa-kaale-kaava-from-gadar-2/JFk6dRxKU2k'>Link</a>  <br/> Kabhi Tumhe <br/> <a href='https://www.jiosaavn.com/song/kabhii-tumhhe/NQ0MZgx3dn0'>Link</a>  <br/> Qaafirana <a href='https://www.jiosaavn.com/song/qaafirana/BTs0Wi5cUV0'>Link</a>  <br/> Deva Deva <a href='https://www.jiosaavn.com/song/deva-deva-from-brahmastra/MVkgViZYe1E'>Link</a>"
+    
+      ]
+    },
+    {
+      "tag": "Atif Aslam songs",
+      "patterns": [
+        "Tell me a few Atif Aslam  song",
+        "Suggest me Atif Aslam songs",
+        "Do you know a Atif Aslam song?"
+      ],
+      "responses": [
+        "Dil Diyan Galan <br/> <a href='https://www.jiosaavn.com/song/dil-diyan-gallan/Ol1feEYEZkA'>Link</a>  <br/> Pehli Nazar Mein <a href='https://www.jiosaavn.com/song/pehli-nazar-mein/XTEzWDZndVw'>Link</a>  <br/> O Saathi <a href='https://www.jiosaavn.com/song/o-saathi/Fjw5eD10TVY'>Link</a>  <br/> Tere Liye <a href='https://www.jiosaavn.com/song/tere-liye/FS0lRgNBXXI'>Link</a>",
+        "Dekhte Dekhte  <a href='https://www.jiosaavn.com/song/dekhte-dekhte/Bx4ffDV1D1I'>Link</a>  <br/> Be Intehaan<a href='https://www.jiosaavn.com/song/be-intehaan/LxwaWiRSAVw'>Link</a>  <br/> Pehli Nazar Mein <a href='https://www.jiosaavn.com/song/pehli-nazar-mein/XTEzWDZndVw'>Link</a>  <br/> O saathi <a href='https://www.jiosaavn.com/song/o-saathi/Fjw5eD10TVY'>Link</a>  <br/> Tere Liye <a href='https://www.jiosaavn.com/song/tere-liye/FS0lRgNBXXI'>Link</a>",
+        "Jeena Jeena <br/> <a href='https://www.jiosaavn.com/song/jeena-jeena/XSU-CE1neQY'>Link</a>  <br/> Tere Liye<a href='https://www.jiosaavn.com/song/tere-liye/FS0lRgNBXXI'>Link</a>  <br/> O saathi<a href='https://www.jiosaavn.com/song/o-saathi/Fjw5eD10TVY'>Link</a>  <br/> Pehli Nazar Mein<a href='https://www.jiosaavn.com/song/pehli-nazar-mein/XTEzWDZndVw'>Link</a>"
+    
+      ]
+    },
+    {
+      "tag": "Neha Kakkar Songs",
+      "patterns": [
+        "Tell me a few Neha Kakkar song",
+        "Suggest me Neha Kakkar songs",
+        "Do you know a Neha Kakkar song?"
+      ],
+      "responses":[
+          "O Saki Saki <a href='https://www.jiosaavn.com/song/o-saki-saki-from-batla-house/Ol0odDZTWwM'>Link</a>  <br/> Gal Ban Gayi<a href='https://www.jiosaavn.com/song/gal-ban-gayi/FCcaBAJUZ30'>Link</a>  <br/> Tu Ishq Mera<a href='https://www.jiosaavn.com/song/tu-isaq-mera/Exw-VRxAUAo'>Link</a>  <br/> Dheeme Dheeme <a href='https://www.jiosaavn.com/song/dheeme-dheeme-from-pati-patni-aur-woh/NT1SeRMFDkA'>Link</a>  <br/> Maahi Ve <a href='https://www.jiosaavn.com/song/maahi-ve/AQMxcA1XVVo'>Link</a>",
+          "Manali Trance <a href='https://www.jiosaavn.com/song/manali-trance/PjskWQBEWUU'>Link</a> <br/> Mehbooba <a href='https://www.jiosaavn.com/song/mehbooba/Jlsgf0MEYwo'>Link</a> <br/> Morni Banke <a href='https://www.jiosaavn.com/song/morni-banke-from-badhaai-ho/NitTdEdjR2I'>Link</a> <br/> Maahi Ve<a href='https://www.jiosaavn.com/song/maahi-ve/AQMxcA1XVVo'>Link</a> <br/>",
+          "Kala Chasma <a href='https://www.jiosaavn.com/song/kala-chashma/SRAFQ0V3AkY'>Link</a> <br/> Gal Ban Gayi<a href='https://www.jiosaavn.com/song/gal-ban-gayi/FCcaBAJUZ30'>Link</a> <br/> Tu Ishq Mera <a href='https://www.jiosaavn.com/song/tu-isaq-mera/Exw-VRxAUAo'>Link</a> <br/> Dheeme Dheeme <a href='https://www.jiosaavn.com/song/dheeme-dheeme-from-pati-patni-aur-woh/NT1SeRMFDkA'>Link</a>",
+          "Dilbar <a href='https://www.jiosaavn.com/song/dilbar/Byc-YRsJelA'>Link</a> <br/> Mehbooba <a href='https://www.jiosaavn.com/song/mehbooba/Jlsgf0MEYwo'>Link</a> <br/> Badhaai Ho <a href='https://www.jiosaavn.com/song/morni-banke-from-badhaai-ho/NitTdEdjR2I'>Link</a> <br/> Maahi Ve <a href='https://www.jiosaavn.com/song/maahi-ve/AQMxcA1XVVo'>Link</a>",
+          "Balenciaga <a href='https://www.jiosaavn.com/song/balenciaga/GisIXTcdUAA'>Link</a> <br/> Gal Ban Gayi<a href='https://www.jiosaavn.com/song/gal-ban-gayi/FCcaBAJUZ30'>Link</a> <br/> Tu Ishq Mera <a href='https://www.jiosaavn.com/song/tu-isaq-mera/Exw-VRxAUAo'>Link</a> <br/> Dheeme Dheeme <a href='https://www.jiosaavn.com/song/dheeme-dheeme-from-pati-patni-aur-woh/NT1SeRMFDkA'>Link</a>",
+          "Aankh Maarey<a href='https://www.jiosaavn.com/song/aankh-marey-from-simmba/XQcCeBJ3VH0'>Link</a> <br/> Mehbooba <a href='https://www.jiosaavn.com/song/mehbooba/Jlsgf0MEYwo'>Link</a> <br/> Morni Banke <a href='https://www.jiosaavn.com/song/morni-banke-from-badhaai-ho/NitTdEdjR2I'>Link</a> <br/> Maahi Ve <a href='https://www.jiosaavn.com/song/maahi-ve/AQMxcA1XVVo'>Link</a>"
+      ]
+    },
+    {
+      "tag": "Old Songs",
+      "patterns": [
+        "Suggest some old songs",
+        "Some Old songs please"
+
+      ],
+      "responses":[
+        "Kuch Kuch Hota Hai <a href='https://www.jiosaavn.com/album/kuch-kuch-hota-hai-original-motion-picture-soundtrack/zvqnBMKjQeM_'>Link</a>",
+        "Dil To Pagal Hai <a href='https://www.jiosaavn.com/album/dil-to-pagal-hai/MpkyruMLllM_'>Link</a>",
+        "Kishore Kumar Album<a href='https://www.jiosaavn.com/featured/lets-play-kishore-kumar-hindi/vY66,Vth,NE_'>Link</a>",
+        "Kumar Sanu Album<a href='https://www.jiosaavn.com/featured/lets-play-kumar-sanu-hindi/QeBmhG7Y1uE_'>Link</a>",
+        "Alka Yagnik Album<a href='https://www.jiosaavn.com/featured/lets-play-alka-yagnik-hindi/ZDOFXfeQHlU_'>Link</a>"
+        
+      ]
+    },
+    {
+      "tag": "Bhajans",
+      "patterns": [
+         "Suggest some Bhajans",
+         "Can u suggest some bhajans"
+      ],
+      "responses":[
+         "Barsane Waali Radhe <a href='https://www.jiosaavn.com/album/radhe-radhe-barsane-wali-radhe-by-alka-yagnik-zee-music-devotional/Htw,soJe1Wk_'>Link</a>",
+         "Krishan Bhjan Album <a href='https://www.jiosaavn.com/album/krishna-bhajan-lagan-tumse-laga-baithe/o21Jcy8VKZg_'>Link</a>",
+         "Hanuman Ji Bhajans Album<a href='https://www.jiosaavn.com/featured/hanuman-bhajans-haryanvi/eAHX5j0QEi0wkg5tVhI3fw__'>Link</a>",
+         "Shiv Ji Bhajans Album<a href='https://www.jiosaavn.com/album/shiv-bhajans/C8b3ONig7hg_'>Link</a>"
+      ]
+    }
+  ]
+}
